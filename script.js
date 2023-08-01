@@ -134,7 +134,7 @@ function simp_loadAudio(elem) {
 }
 
 function simp_setAlbum(index) {
-  simp_cover.innerHTML = simp_a_url[index].dataset.cover = '<img src="https://dev-advanced-portfolio.pantheonsite.io/wp-content/uploads/2023/07/Colney-talk.png" style="border-radius:8px;">';
+  simp_cover.innerHTML = simp_a_url[index].dataset.cover = '<img src="https://dev-jaineek-portfolio.pantheonsite.io/wp-content/uploads/2023/07/Colney-talk.png" style="border-radius:8px;">';
   simp_title.innerHTML = simp_source[index].querySelector('.simp-source').innerHTML;
   simp_artist.innerHTML = simp_source[index].querySelector('.simp-desc') ? simp_source[index].querySelector('.simp-desc').innerHTML : '';
 }
